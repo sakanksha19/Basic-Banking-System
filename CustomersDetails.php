@@ -1,8 +1,8 @@
 <?php
-    $servername = "";
-    $username = ""; 
-    $password = ""; 
-    $dname = ""; 
+    $servername = "fdb34.awardspace.net";
+    $username = "3986264_akanksha19"; 
+    $password = "u-nudn587BdR72a}"; 
+    $dname = "3986264_akanksha19"; 
     $con = new mysqli($servername, $username, $password, $dname); 
     if ($con->connect_error) { 
     die("Connection failed: " . $con->connect_error); 
@@ -56,6 +56,7 @@
 </head>
 
 <body>
+  <img src="bankinghub.jpg" alt="bank" style= "width:100%; height: 90%; position: absolute; z-index:-1; opacity: 0.7">
   <?php include('navbar.php'); ?>
        <div class="container">
             <h2 style="text-align: center">Customer Details</h2>
