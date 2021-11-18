@@ -12,7 +12,7 @@
     }
     .center{
       padding-top:5px;
-      background: #c0c0e6;
+      
       display: block;
       margin-top: 20px;
       margin-left: auto;
@@ -30,11 +30,12 @@
   </style>
 </head>
 <body>
+  <img src="bankinghub.jpg" alt="bank" style= "width:100%; height: 97%; position: absolute; z-index:-1; opacity: 0.7">
   <?php include('navbar.php'); ?>
   <div class="center">
-      <h1 style="text-align: center">Welcome to Sparks Bank<h1>
+      <h1 style="text-align: center; font-size: 60px; padding-top: 0px">Welcome to Sparks Bank<h1>
       <img class ="center" src="bankImage.png" alt="" width="150" height="300">
-      <p style="text-align: center ; font-size: 15px"><i>"Good Banking is produced not by good laws, but by good bankers."</i><p>
+      <p style="text-align: center ; font-size: 20px"><i>"Good Banking is produced not by good laws, but by good bankers."</i><p>
      
   </div>
   <footer style="padding-top: 2px; text-align: center; color: white">
