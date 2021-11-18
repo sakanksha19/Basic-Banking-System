@@ -21,7 +21,7 @@ INSERT INTO `accountdetails` (`sno`, `accNo`, `name`, `email`, `balance`) VALUES
 (8, 4356, 'Shreyash', 'shreyash@gmail.com', 6546),
 (9, 1456, 'Shifa', 'shifa@gmail.com', 8900),
 (10, 9876, 'Prashant', 'prashant@gmail.com', 9999),
-(11, 2431, 'Vishal', 'vishal@gmail.com', 9999);
+(11, 2431, 'Vishi', 'vishi@gmail.com', 9999);
 
 CREATE TABLE `history` (
   `sno` int(11) NOT NULL,
